@@ -1,0 +1,24 @@
+{
+    "name": "Antigravity AI Engine",
+    "short_name": "Antigravity",
+    "description": "Motor Analítico con IA — Interfaz de voz y dashboard de métricas en tiempo real",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0a0e1a",
+    "theme_color": "#0a0e1a",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
