@@ -16,8 +16,8 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
     rel="stylesheet" />
   <title>Lumen</title>
-  <script type="module" crossorigin src="/lumen-demo/assets/index-CkTfiBSz.js"></script>
-  <link rel="stylesheet" crossorigin href="/lumen-demo/assets/index-C2l3E5Ra.css">
+  <script type="module" crossorigin src="/lumen-demo/assets/index-DeCE6ksz.js"></script>
+  <link rel="stylesheet" crossorigin href="/lumen-demo/assets/index-CE402qvQ.css">
 </head>
 
 <body>
@@ -135,8 +135,8 @@
           <h3 class="menu-card-title">Reporte de Lento Movimiento</h3>
           <p class="menu-card-desc">Articulos con poca o nula rotacion en el periodo.</p>
         </div>
-        <!-- Flujo de Efectivo - OCULTO TEMPORALMENTE PARA DEMO -->
-        <div class="menu-card glass-card" data-module="flujo-efectivo" aria-label="Flujo de Efectivo" style="display:none" role="button" tabindex="0">
+        <!-- Flujo de Efectivo -->
+        <div class="menu-card glass-card" data-module="flujo-efectivo" aria-label="Flujo de Efectivo" role="button" tabindex="0">
           <div class="menu-card-icon gradient-primary">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/>
@@ -147,15 +147,17 @@
           <h3 class="menu-card-title">Flujo de Efectivo</h3>
           <p class="menu-card-desc">Entradas, salidas y saldo de cuentas bancarias por sucursal.</p>
         </div>
-        <!-- Chat con IA -->
-        <div class="menu-card glass-card" data-module="chat-ia" aria-label="Chat con IA" style="grid-column: span 2;" role="button" tabindex="0">
+        <!-- Chat con IA (hero a todo el ancho) -->
+        <div class="menu-card menu-card-hero glass-card" data-module="chat-ia" aria-label="Chat con IA" role="button" tabindex="0">
           <div class="menu-card-icon gradient-accent">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
             </svg>
           </div>
-          <h3 class="menu-card-title">Chat con IA</h3>
-          <p class="menu-card-desc">Pregunta lo que necesites con lenguaje natural.</p>
+          <div class="menu-card-hero-text">
+            <h3 class="menu-card-title">Chat con IA</h3>
+            <p class="menu-card-desc">Pregunta lo que necesites con lenguaje natural —escribiendo o por voz.</p>
+          </div>
         </div>
       </div>
       <button id="main-menu-logout" class="menu-logout-btn" aria-label="Cerrar sesion">
